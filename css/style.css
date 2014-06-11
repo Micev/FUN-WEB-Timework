@@ -1,0 +1,35 @@
+body {
+	background-color:7f7f7f;
+    margin: 0px;
+    padding: 0px;
+    
+}
+	a {
+        color:#fff;
+        text-decoration:none;
+	}
+	header{
+	background-image:url("../image/headerbg.png");
+	background-color:#cccccc;
+	}
+	
+    footer a {
+        color:#fff;
+        text-decoration:none;
+    }
+	 footer  a:hover {
+	color: #FE7702;
+	}
+	
+	header  a:hover {
+	color: #FBE890;
+	}
+	
+	
+
+	footer>img {
+		position: relative;
+		margin: auto;
+		padding: auto ;
+		}
+    
