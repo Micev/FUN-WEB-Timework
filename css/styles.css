@@ -270,15 +270,23 @@ h3{
 		padding: 0;
 		list-style: none;
 		z-index: 9999;
-		color: #FF7A04;
+		text-decoration: none;
 	}
 
-	.menu li a,visited {
+	.menu ul li a,visited {
 		text-decoration: none;
 	}
 
 	.menu ul li, a:hover {
 		color: #E00000;
+	}
+
+	.par {
+		margin-bottom: 20px;
+		color: #666;
+		font-size: 11px;
+		line-height: 22px;
+		font-weight: bold;
 	}
 
 
