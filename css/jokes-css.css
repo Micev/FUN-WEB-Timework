@@ -14,3 +14,16 @@ section {
 div {
 	text-align: center;
 }
+#button {
+    background-color: orange;
+    border: solid 2px black;
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 15px;
+    text-align: center;
+}
+    #button:hover {
+        background-color: darkorange;
+    }
