@@ -1,10 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="UTF-8" />
+	 <meta charset="utf-8" />
     <title>..:: TIMEWORK ::..  </title>
 	<meta name="keywords" content="timework, softuni">
 	<link rel="stylesheet" href="css/styles.css" />
+	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+	<script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
 	<meta name="author" content="© 2014"/>
 	
 	
@@ -13,43 +18,7 @@
 		<script src="dist/html5shiv.js"></script>
 		<![endif]-->
 	
-      <!--  <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
-	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-		a {
-			color: #09f;
-		}
-		a:hover {
-			text-decoration: none;
-		}
-		#back_to_camera {
-			clear: both;
-			display: block;
-			height: 80px;
-			line-height: 40px;
-			padding: 20px;
-		}
-		.fluid_container {
-			margin: 0 auto;
-			max-width: 1000px;
-			width: 90%;
-		}
-	</style>
-
-    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
-    //
-    //		Scripts
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
     
-    <script type='text/javascript' src='scripts/jquery.min.js'></script>
-    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
-    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
-    <script type='text/javascript' src='scripts/camera.min.js'></script> 
     
     <script>
 		jQuery(function(){
@@ -99,23 +68,14 @@
 	</ul>
 		
 	</div>
-	<div class="audio"> 
 
-	
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<div class="audio">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 <div id="player-holder"></div><!--ded509--><!--/ded509-->
 
-
-<script type="text/javascript">
-	var options = {};
-	options.mediaPath = "song.mp3&autoPlay=true&defaultVolume=80&autoLoad=true";
-	
-	var params = {};
-	params.allowScriptAccess = "always";
-	
-	swfobject.embedSWF("LWMusicPlayer.swf", "player-holder", "65", "21", "9.0.0",false, options, params, {});
-        </script>
 	</div>
+
 	</nav>
 
 		<div class="data">
@@ -127,33 +87,33 @@
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
             <div  data-src="images/1.jpg">
                 <div class="camera_caption fadeFromBottom">
-                   <!-- Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em> -->
+                  <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
                 </div>
             </div>
            
 		   
             <div data-thumb="images/slides/thumbs/road.jpg" data-src="images/2.jpg">
                 <div class="camera_caption fadeFromBottom">
-                  <!--    <em>It's completely free</em> (even if a donation is appreciated)   -->
+                   <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
                 </div>
             </div>
            
 		   
             <div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/3.jpg">
                 <div class="camera_caption fadeFromBottom">
-                   <!-- It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>) -->
+                    <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
                 </div>
             </div>
 			
 			<div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/5.jpg">
                 <div class="camera_caption fadeFromBottom">
-                   <!-- It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>) -->
+                    <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
                 </div>
             </div>
 			
 			<div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/6.jpg">
                 <div class="camera_caption fadeFromBottom">
-                   <!-- It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>) -->
+                    <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
                 </div>
             </div>
            
@@ -228,7 +188,15 @@
 		</footer>
 
 	    	
+	<script type="text/javascript">
+	var options = {};
+	options.mediaPath = "song.mp3&autoPlay=true&defaultVolume=80&autoLoad=true";
 	
+	var params = {};
+	params.allowScriptAccess = "always";
+	
+	swfobject.embedSWF("LWMusicPlayer.swf", "player-holder", "65", "21", "9.0.0",false, options, params, {});
+        </script>
 
 	
 </body>

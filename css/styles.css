@@ -5,12 +5,32 @@ body {
     padding: 0px;
 	background-color: #D00000;  
 }
-h3{
+body {
+	background-image:url("../images/bg.jpg");
+	background-repeat:repeat-x;
+    margin: 0px;
+    padding: 0px;
+	background-color: #D00000;	
+}
 
-		padding-top: 70px;
-		font-style: 3em;
-		font-family: verdana;
-		color: #D00000;
+a {
+	color: #09f;
+}
+a:hover {
+	text-decoration: none;
+	}
+#back_to_camera {
+	clear: both;
+	display: block;
+	height: 80px;
+	line-height: 40px;
+	padding: 20px;
+}
+
+.fluid_container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 90%;
 	}
 
 	header{
