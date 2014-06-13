@@ -310,4 +310,48 @@ a:hover {
 	::selection {
     background: #E81900;
 	}
-	
+/*тази част от файла ще използваме за news.html */
+.wrapper{
+    background-color: #FFF;
+    width: 1000px;
+    margin: auto;
+    margin-top: -60px;
+}
+.news_content{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    /*background-color: #eee;*/
+}
+.news_main_content{
+    position: relative;
+    box-shadow: 0 0px 15px #000;
+    margin-left:30px;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    width: 27%;
+    height: 350px;
+    background-color: #fff;
+}
+.news_main_content h3{
+    width: 260px;
+}
+.news_main_content h3 a{
+    /*margin-top: -40px;*/
+    position: absolute;
+    color: black;
+    overflow: hidden;
+    text-decoration: none;
+}
+.news_date{
+    padding-top:35px;
+}
+.news_image img{
+    width: 258px;
+}
+/*за отделните новини от тук*/
+
+
+/*до тук*/
+
+/*стила за news.html е до тук*/
