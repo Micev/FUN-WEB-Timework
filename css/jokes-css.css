@@ -12,24 +12,47 @@ section {
    	.topic {
 		font-weight: bold;
 		font-size: 30px;
-		font-style: monospace;
-		
+		font-family: "Consolas", Consolas;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.image {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
 
-div {
-	text-align: center;
-}
+	div {
+		text-align: center;
+	}	
 
 footer {
 	background-color: white;
 	text-align: center;
 }
+#pages {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+	#separator {
+		width: 90%;
+		background-color: darkorange;
+		height: 2px;
+	}
+	.go-to {
+		background-color: orange;
+		width: 40px;
+		height: 40px;
+		font-weight: bold;
+		font-size: 20px;
+		border: 1px black solid; 
+		margin-right: 3px;
+		margin-left: 3px;
+
+	}
+	.go-to:hover {
+		background-color: darkorange;
+		cursor: pointer;
+	}
 hr {
 	width: 70%;
-	background-color: #F58414;
-	height: 2px;
 }
