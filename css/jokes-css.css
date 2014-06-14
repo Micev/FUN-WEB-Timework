@@ -10,7 +10,17 @@ section {
 	width: 70%;
 	margin-left: auto;
     margin-right: auto;
-}
+} 
+   	.topic {
+		font-weight: bold;
+		font-size: 30px;
+		font-style: monospace;
+		
+	}
+	.image {
+		padding-top: 10px;
+	}
+
 div {
 	text-align: center;
 }
