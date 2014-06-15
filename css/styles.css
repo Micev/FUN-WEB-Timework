@@ -589,6 +589,38 @@ nav{
 	display: none;
 }
 
+
+/* Contacts start */
+
+.contactsConteiner {
+	margin: 0 auto;
+	max-height: 100%;
+	width: 90%;
+	padding: 30px;
 }
+
+.table {
+	width: 300px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background: url("../images/ContactsIMG/nikiIMG.jpg") no-repeat;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border: 2px solid red;
+
+}
+
+.table table {
+	padding-left: 100px;
+}
+
+.table td, tr {
+	padding: 20px;
+	background: red;
+	width: 300px;
+}
+
+/* Contacts end */
 
 
