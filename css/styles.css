@@ -211,7 +211,10 @@ a:hover {
 		font-size: 11px;
 		color: #4d4d4d;
 		background: url("../images/footer/REDfooter_star.png") no-repeat 0 3px;
+	}
 
+	.listWithStars ul li:hover {
+		background: red;
 	}
 
 	.sec_Col {
@@ -263,28 +266,43 @@ a:hover {
 
 	.menud ul {
 		list-style: none;
-		padding: 20px 0 0 0;
-		
-		
-
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: 70px;
 	}
 
 	.menud ul li {
 		float: left;
-		display: block;
-		padding: 10px 40px 10px 10px;
-		list-style: none;
-		z-index: 9999;
-		text-decoration: none;
+		display: inline-block;
+		padding: 6px;
+		list-style-type: none;
+		color: #FF7A04;
 		
+	}
+
+	.menud ul li:hover {
+		background: #FF7A04;
+		width: 120px;
 	}
 
 	.menud ul li a,visited {
 		text-decoration: none;
+		color: red;
+		display: block;
+		padding: 5px;
 	}
 
 	.menud ul li, a:hover {
-		color: #E00000;
+		color: #FF7A04;
+		text-decoration: none;
+	}
+
+	.menud ul li {
+   		-webkit-transition:all .4s ease;
+    	-moz-transition:all .4s ease;
+    	-ms-transition:all .4s ease;
+    	transition: all .4s ease;
 	}
 
 	.par {
