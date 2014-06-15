@@ -156,7 +156,6 @@ a:hover {
 
 	.upper_footer {
 		margin-top: 0px;
-		border-color: #fff;
 		display: block;
 		width: 100%;
 		height: 320px;
@@ -315,10 +314,7 @@ a:hover {
 	.par p{
 		text-align:center;
 	}
-
-	::selection {
-    background: #E81900;
-	}
+	
 /*тази част от файла ще използваме за news.html */
 .wrapper{
     background-color: #FFF;
