@@ -72,8 +72,9 @@ a:hover {
 		margin-top: 25px;
 		background-color: #fff;
 		width: 100%;
-		height: 60px;
-		border-top-left-radius:50px;
+		height: 60px;		
+		-webkit-border-top-left-radius: 50px;
+		        border-top-left-radius: 50px;
 	}
 
 	nav{
@@ -90,7 +91,7 @@ a:hover {
 	.nav ul{
 		list-style-type: none;
 		display: list-item;
-		text-align: -webkit-match-parent;
+		/*text-align: -webkit-match-parent;*/
 		font-weight: bold;
 
 
@@ -100,9 +101,10 @@ a:hover {
 		margin: 5px;
 		padding: 5px 7px 5px 7px;
 		background: #FF7A04;
-		border-bottom-right-radius:5px;
-		border-top-left-radius:5px;
-
+			-webkit-border-bottom-right-radius: 5px;
+		        border-bottom-right-radius: 5px;
+			-webkit-border-top-left-radius: 5px;
+		        border-top-left-radius: 5px;
 	}
 	.nav ul li:hover{
 		display:inline;
@@ -481,7 +483,7 @@ a:hover {
 .navs {
 		/*list-style-type: none;*/
 		display: list-item;
-		text-align: -webkit-match-parent;
+		/*text-align: -webkit-match-parent;*/
 		font-weight: bold;
 
 
@@ -493,12 +495,12 @@ a:hover {
 		text-align:center;
 		border:1px;
 		border: solid;
-		
 		border-color: #C4C4C4;
 		background-color: #fff;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		
-	-webkit-border-radius: 10px;
-		        border-radius: 10px;
+	
 
 	}
 
