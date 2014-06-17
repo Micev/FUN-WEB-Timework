@@ -1,0 +1,115 @@
+<?
+?>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>..:: TIMEWORK ::..  </title>
+	<meta name="keywords" content="timework, softuni">
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+	<script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+	<meta name="author" content="© 2014"/>
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="css/ie5.css">
+    <script src="dist/html5shiv.js"></script>
+    <![endif]-->
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+	</script>
+</head>
+<body>
+
+
+
+    <header>
+        <? include ("blocks/header.php");
+?>
+    </header>
+	<nav>
+        <div class="nav">
+            <ul>
+                <li > <a href="news.html">НОВИНИ</a></li>
+                <li > <a href="lectures.html">ЛЕКЦИИ</a>  </li>
+                <li > <a href="forum.html">ФОРУМ</a> </li>
+                <li > <a href="http://tsetso.net/softuni/soft/">ПАРТНьОРИ</a> </li>
+                <li > <a href="contacts.html">КОНТАКТИ</a> </li>
+            </ul>
+        </div>
+        <div class="audio">
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+            <div id="player-holder"></div><!--ded509--><!--/ded509-->
+        </div>
+	</nav>
+	<div class="data">
+		<div>
+            <div class="fluid_container">
+
+                <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+                    <div  data-src="images/1.jpg">
+                        <div class="camera_caption fadeFromBottom">
+                          <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
+                        </div>
+                    </div>
+                    <div data-thumb="images/slides/thumbs/road.jpg" data-src="images/2.jpg">
+                        <div class="camera_caption fadeFromBottom">
+                           <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
+                        </div>
+                    </div>
+                    <div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/3.jpg">
+                        <div class="camera_caption fadeFromBottom">
+                            <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
+                        </div>
+                    </div>
+                    <div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/5.jpg">
+                        <div class="camera_caption fadeFromBottom">
+                            <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
+                        </div>
+                    </div>
+                    <div data-thumb="images/slides/thumbs/shelter.jpg" data-src="images/6.jpg">
+                        <div class="camera_caption fadeFromBottom">
+                            <!--  ADD TEXT HERE<em>ADD TEXT HERE</em> -->
+                        </div>
+                    </div>
+                </div><!-- #camera_wrap_1 -->
+            </div><!-- .fluid_container -->
+        </div>
+	<div>
+		<p>blabla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla blablabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla</p>
+	</div>
+	<div class="footer_divider"></div>
+	</div>
+	<footer >
+		
+
+
+        <? include ("blocks/footer.php");
+?>
+	</footer>
+	<script type="text/javascript">
+	var options = {};
+	options.mediaPath = "song.mp3&autoPlay=true&defaultVolume=80&autoLoad=true";
+
+	var params = {};
+	params.allowScriptAccess = "always";
+
+	swfobject.embedSWF("LWMusicPlayer.swf", "player-holder", "65", "21", "9.0.0",false, options, params, {});
+        </script>
+</body>
+</html>
