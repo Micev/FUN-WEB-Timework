@@ -213,6 +213,10 @@ a:hover {
 		color: #4d4d4d;
 		background: url("../images/footer/REDfooter_star.png") no-repeat 0 3px;
 	}
+	.listWithStars li #click-jokes {
+		text-decoration: none;
+		font-size: 20px;
+	}
 
 	.listWithStars ul li:hover {
 		background: red;
@@ -624,5 +628,3 @@ nav{
 }
 
 /* Contacts end */
-
-
