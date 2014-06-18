@@ -56,3 +56,7 @@ footer {
 hr {
 	width: 70%;
 }
+.quote {
+	font-style: italic;
+	font-size: 25px;
+}
