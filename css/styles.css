@@ -773,3 +773,7 @@ width: 300px;
 /* Contacts end */
 
 /* Home page content */
+#main-content p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
