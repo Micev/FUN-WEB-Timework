@@ -255,16 +255,18 @@ nav{
 #contact{
 	max-width: 85%;
 	border: 1px solid;
-	height: 400px;
+	
 	margin: auto;
 	margin-top: 30px;
 	
 }
 .visual{
-	display: block;
+	display:inline-block;
+	width: 250px;
+	float: left;
 	margin: 0;
 	padding: 0;
-	width: 200px;
+background: #ff7700;
 	
 }
 .visual img{
@@ -286,10 +288,7 @@ nav{
 	
 }
 
-.softuni {
-	width: 50px;
-	height: 50px;
-}
+
 .softuni a{
 	display: inline-block;
 	width: 50px;
@@ -314,10 +313,7 @@ nav{
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
-.github{
-	width: 50px;
-	height: 50px;
-}
+
 
 .github a{
 	display: inline-block;
@@ -391,12 +387,15 @@ nav{
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
-
+.clearfix{
+	clear: both;
+}
 .info{
-	display: block;
-	margin-top: -200px;
-	width: 500px;
-	float: right;
+	background: #ff22ff;
+	display: inline-block;
+	/*margin-top: -200px;*/
+	width: 400px;
+
 }
 
 .bot_footer_conteiner {
