@@ -11,14 +11,14 @@ section {
 } 
    	.topic {
 		font-weight: bold;
-		font-size: 30px;
+		font-size: 1.85em;
 		font-family: "Consolas", Consolas;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
 	}
 	.image {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
 	}
 
 	div {
@@ -30,11 +30,11 @@ footer {
 	text-align: center;
 }
 #pages {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 	#separator {
-		width: 90%;
+		max-width: 90%;
 		background-color: darkorange;
 		height: 2px;
 	}
@@ -45,12 +45,19 @@ footer {
 		font-weight: bold;
 		font-size: 20px;
 		border: 1px black solid; 
-		margin-right: 3px;
-		margin-left: 3px;
+		margin-right: 0.5%;
+		margin-left: 0.5%;
 
 	}
 	.go-to:hover {
 		background-color: darkorange;
+		cursor: pointer;
+	}
+	.on-page {
+		background-color: red;
+	}
+	.on-page:hover {
+		background-color: darkred;
 		cursor: pointer;
 	}
 hr {
@@ -59,4 +66,7 @@ hr {
 .quote {
 	font-style: italic;
 	font-size: 25px;
+}
+img {
+	max-width: 100%;
 }
