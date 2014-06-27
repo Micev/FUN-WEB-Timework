@@ -47,6 +47,9 @@ margin:auto;
 	margin: 30px ;
 	margin-left: 50px;
 }
+.logo a img{
+	border:0;
+	}
 
 .logo:hover{
 	margin-top: 30px;
