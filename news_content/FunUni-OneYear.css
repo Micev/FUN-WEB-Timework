@@ -1,0 +1,37 @@
+#wrapper{
+    font-family: "calibri", sans-serif;
+    background-color: #FFF;
+    width: 100%;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: -25px;
+
+}
+.new_info{
+
+    margin: 20px;
+    padding: 20px;
+    background-color: #e9eaed;
+}
+h2{
+    text-shadow: 0px 1px;
+}
+.time{
+    color: #5a5a5a;
+}
+.news_content_info{
+    font-weight: bold;
+}
+.news_content_image{
+    width: 500px;
+    height: 340px;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+.footer_divider_news{
+    background : url("../images/footer/REDfooter_divider.png")repeat-x;
+    height: 5px;
+}
