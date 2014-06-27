@@ -53,6 +53,13 @@ footer {
 		background-color: darkorange;
 		cursor: pointer;
 	}
+	.on-page {
+		background-color: red;
+	}
+	.on-page:hover {
+		background-color: darkred;
+		cursor: pointer;
+	}
 hr {
 	width: 70%;
 }
