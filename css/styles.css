@@ -491,7 +491,7 @@ margin-bottom: 30px;
 	text-align:center;
 }
 
-/*тази част от файла ще използваме за news.html */
+/*This part is for news.html */
 .wrapper{
 background-color: #FFF;
 width: 100%;
@@ -528,14 +528,14 @@ text-decoration: none;
 padding-top:35px;
 }
 .news_image img{
-width: 26%;
+width: 100%;
 }
-/*за отделните новини от тук*/
+/*About separate news*/
 
 
-/*до тук*/
+/*separate news to here*/
 
-/*стила за news.html е до тук*/
+/*Style forr news.html to here*/
 
 
 @media (max-width: 768px) {
