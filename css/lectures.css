@@ -23,4 +23,19 @@ section {
 	text-align: center;
 }
 
+.videos {
+	margin: 0 auto;
+    display: block;
+    width: 500px;
+    height: 300px;
+    padding-bottom:
+
+}
+
+hr {
+	width: 70%;
+	border-style: inset;
+	border-width: 1px;
+}
+
 
