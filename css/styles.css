@@ -511,11 +511,12 @@ background-color: #FFF;
 width: 100%;
 margin: auto;
 margin-top: -60px;
+margin-bottom: -30px;
 }
 .news_content{
 margin-top: 60px;
 padding-top: 30px;
-padding-bottom:30px;
+padding-bottom:80px;
 /*background-color: #eee;*/
 }
 .news_main_content{
