@@ -50,7 +50,10 @@ header{
     transition: all 0.9s ease-out;  
 }
 
-
+.but{
+	float: right;
+	display: none;
+}
 .menu{	
 	
 	margin-right: -8%;
@@ -113,6 +116,16 @@ ul li a:hover{
 	padding: 5px 7px 5px 7px;
 
 }
+
+.buton:hover {
+	background: #234465;
+	margin-right: 15%;
+	margin-top: 15px;
+	float: right;
+	position: relative;
+	padding: 5px 7px 5px 7px;
+
+}
 .buton a{
 	text-decoration: none;
 	color: #fff;
@@ -120,8 +133,10 @@ ul li a:hover{
 }
 
 .buton a:hover{
+
 	text-decoration: none;
-	color: #FF9C00;
+	/*color: #FF9C00;*/
+	color: #234456;
 	font-family: 'PT Sans', Tahoma, sans-serif;
 }
 
@@ -131,7 +146,7 @@ ul li a:hover{
 }
 
 .bottom{
-	height: 150px;
+	
 	background-color: #234465;
 	-webkit-border-top-right-radius:55px;
 }
@@ -143,4 +158,32 @@ ul li a:hover{
 .content{
 	width: 70%;
 	margin: auto;
+}
+.content img{
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+	}
+
+.bottom img{
+	margin-top: 30px;
+	margin-left: 50px;
+	
+	}
+
+@media all and (max-width: 800px) {
+	.but{
+		display: block;
+		margin-top: -110px;
+	}
+
+	.menu{	
+	display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.content img{
+		display: none;
+	}
 }
