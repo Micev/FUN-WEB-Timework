@@ -146,7 +146,7 @@ nav{
 }
 #headline {
 	color: darkorange;
-	font-size: 2.2em;
+	font-size: 3em;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -156,6 +156,16 @@ nav{
 	font-weight: bold;
 	display: inline-block;
 	margin-bottom: 20px;
+}
+.section-bold {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.paragraph-breaker {
+	width: 70%;
+	height: 2px;
+	border-radius: 10px;
+	background-color: darkorange;
 }
 
 
@@ -172,6 +182,9 @@ nav{
 	display: block;
 
 }
+#contacts-divider { 
+	margin-top: 2%;
+}
 
 
 
@@ -180,7 +193,7 @@ nav{
 	margin-top: 0px;
 	display: block;
 	width: 100%;
-	height: 320px;
+	height: 250px;
 	background: #fff;
 	margin: auto;
 	
@@ -270,6 +283,32 @@ nav{
 	padding-top: 20px;
 	font-size: 0;
 	line-height: 0;
+}
+#brought-by {
+	color: darkorange;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+}
+#logo-positioner {
+	text-align: center;
+}
+#softuni-logo {
+	background-color: #234462;
+	display: inline-block;
+	width: 80%;
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+	transition: width 1s;
+}
+#softuni-logo:hover{
+	width: 100%;
+}
+#softuni-logo > a > img{
+	width: 40%;
+	height: 40%;
 }
  
 #contact{
