@@ -42,8 +42,8 @@ header{
 
 .logo a img:hover{
 	opacity: 0.0;
-    filter: alpha(opacity=40);
-        -moz-transition: all 0.9s ease-out;  /* FF4+ */
+    
+    -moz-transition: all 0.9s ease-out;  /* FF4+ */
     -o-transition: all 0.9s ease-out;  /* Opera 10.5+ */
     -webkit-transition: all 0.9s ease-out;  /* Saf3.2+, Chrome */
     -ms-transition: all 0.9s ease-out;  /* IE10? */
