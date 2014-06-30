@@ -22,8 +22,8 @@ h2{
     font-weight: bold;
 }
 .news_content_image{
-    width: 500px;
-    height: 340px;
+    width: 400px;
+    height: 240px;
 }
 span{
     font-size: 18px;
@@ -34,3 +34,18 @@ span{
     background : url("../images/footer/REDfooter_divider.png")repeat-x;
     height: 5px;
 }
+
+table tr:nth-child(1) th {
+    background-color: #f63;
+    color: #fff;
+    height: 40px;
+}
+table tr:nth-child(even) td, .mhk_editorInput table tr.even td {
+    background-color: #e4ed84;
+    padding: 5px;
+}
+table tr:nth-child(odd) td, .mhk_editorInput table tr.even td {
+    background-color: #fbeec9;
+    padding: 5px;
+}
+
