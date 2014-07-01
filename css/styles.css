@@ -595,6 +595,29 @@ padding-top:35px;
 .news_image img{
 width: 100%;
 }
+
+@media (min-width: 851px) and (max-width: 980px) {
+	.wrapper {
+		width: 100%
+	}
+	.news_main_content {
+		width: 25%;
+		vertical-align: top;
+	}
+}
+@media (min-width: 769px) and (max-width: 850px) {
+	.news_main_content {
+		width: 20%;
+		vertical-align: top;
+	}
+}
+@media (max-width: 768px) {
+
+	.news_main_content {
+		width: 20%;
+		vertical-align: top;
+	}
+}
 /*About separate news*/
 
 
